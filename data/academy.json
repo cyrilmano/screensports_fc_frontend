@@ -1,0 +1,95 @@
+{
+  "programs": [
+    {
+      "id": 1,
+      "title": "Youth Development Program",
+      "description": "Comprehensive training for young players aged 6-12 focusing on fundamental skills, teamwork, and love for the game.",
+      "ageGroup": "6-12 years",
+      "duration": "12 weeks",
+      "schedule": "Mon, Wed, Fri - 4:00 PM to 6:00 PM",
+      "coach": "Coach Sarah Johnson",
+      "image": "/images/youth-program.jpg",
+      "price": "$299",
+      "features": ["Ball control", "Passing techniques", "Team coordination", "Fitness training"]
+    },
+    {
+      "id": 2,
+      "title": "Elite Academy Program",
+      "description": "Advanced training for competitive players aged 13-18 preparing for college and professional opportunities.",
+      "ageGroup": "13-18 years",
+      "duration": "16 weeks",
+      "schedule": "Tue, Thu, Sat - 5:00 PM to 7:30 PM",
+      "coach": "Coach Michael Rodriguez",
+      "image": "/images/elite-program.jpg",
+      "price": "$499",
+      "features": ["Advanced tactics", "Position-specific training", "College recruitment prep", "Video analysis"]
+    },
+    {
+      "id": 3,
+      "title": "Goalkeeper Academy",
+      "description": "Specialized training for goalkeepers focusing on technique, positioning, and mental preparation.",
+      "ageGroup": "10-18 years",
+      "duration": "10 weeks",
+      "schedule": "Sat & Sun - 9:00 AM to 11:30 AM",
+      "coach": "Coach David Thompson",
+      "image": "/images/goalkeeper-program.jpg",
+      "price": "$399",
+      "features": ["Shot stopping", "Positioning", "Distribution", "Communication skills"]
+    }
+  ],
+  "coaches": [
+    {
+      "id": 1,
+      "name": "Sarah Johnson",
+      "role": "Youth Development Director",
+      "experience": "8 years",
+      "certification": "UEFA B License",
+      "image": "/images/coach-sarah.jpg",
+      "bio": "Former collegiate player with extensive experience in youth development and grassroots football."
+    },
+    {
+      "id": 2,
+      "name": "Michael Rodriguez",
+      "role": "Elite Academy Head Coach",
+      "experience": "12 years",
+      "certification": "UEFA A License",
+      "image": "/images/coach-michael.jpg",
+      "bio": "Former professional player with experience coaching at elite youth academies across Europe."
+    },
+    {
+      "id": 3,
+      "name": "David Thompson",
+      "role": "Goalkeeper Specialist",
+      "experience": "15 years",
+      "certification": "FA Goalkeeping License",
+      "image": "/images/coach-david.jpg",
+      "bio": "Former Premier League goalkeeper with expertise in developing young goalkeepers."
+    }
+  ],
+  "facilities": {
+    "pitches": [
+      {
+        "name": "Main Training Ground",
+        "type": "Full-size grass pitch",
+        "description": "Professional-grade natural grass pitch with floodlights for evening training."
+      },
+      {
+        "name": "Academy Field",
+        "type": "3/4 size artificial turf",
+        "description": "All-weather training surface perfect for year-round development sessions."
+      },
+      {
+        "name": "Youth Development Area",
+        "type": "Multiple small-sided pitches",
+        "description": "Dedicated area for age-appropriate training with various pitch sizes."
+      }
+    ],
+    "amenities": [
+      "Modern changing rooms with showers",
+      "Equipment storage and maintenance facility",
+      "Video analysis room with tactical screens",
+      "Parent viewing area with refreshments",
+      "Sports therapy and first aid station"
+    ]
+  }
+}

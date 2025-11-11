@@ -1,0 +1,128 @@
+{
+  "categories": [
+    {
+      "id": "training",
+      "name": "Training Sessions",
+      "description": "Action shots from our intensive training sessions",
+      "images": [
+        {
+          "id": 1,
+          "url": "/images/gallery/training-1.jpg",
+          "title": "Ball Control Drills",
+          "description": "Players working on ball control techniques during training"
+        },
+        {
+          "id": 2,
+          "url": "/images/gallery/training-2.jpg",
+          "title": "Tactical Session",
+          "description": "Coach explaining tactical positioning to players"
+        },
+        {
+          "id": 3,
+          "url": "/images/gallery/training-3.jpg",
+          "title": "Small-Sided Games",
+          "description": "Intense small-sided game focusing on quick decision making"
+        },
+        {
+          "id": 4,
+          "url": "/images/gallery/training-4.jpg",
+          "title": "Fitness Training",
+          "description": "Players participating in strength and conditioning exercises"
+        }
+      ]
+    },
+    {
+      "id": "matches",
+      "name": "Match Action",
+      "description": "Highlights from competitive matches and tournaments",
+      "images": [
+        {
+          "id": 5,
+          "url": "/images/gallery/match-1.jpg",
+          "title": "Championship Final",
+          "description": "Our U16 team celebrating after winning the championship"
+        },
+        {
+          "id": 6,
+          "url": "/images/gallery/match-2.jpg",
+          "title": "Goal Celebration",
+          "description": "Players celebrating a crucial goal during tournament play"
+        },
+        {
+          "id": 7,
+          "url": "/images/gallery/match-3.jpg",
+          "title": "Goalkeeper Save",
+          "description": "Our goalkeeper making an incredible save during a match"
+        },
+        {
+          "id": 8,
+          "url": "/images/gallery/match-4.jpg",
+          "title": "Team Huddle",
+          "description": "Team gathering for tactical discussion during halftime"
+        }
+      ]
+    },
+    {
+      "id": "facilities",
+      "name": "Facilities",
+      "description": "Our state-of-the-art training facilities",
+      "images": [
+        {
+          "id": 9,
+          "url": "/images/gallery/facility-1.jpg",
+          "title": "Main Training Ground",
+          "description": "Aerial view of our main grass training pitch"
+        },
+        {
+          "id": 10,
+          "url": "/images/gallery/facility-2.jpg",
+          "title": "Academy Building",
+          "description": "Modern academy building with classrooms and analysis rooms"
+        },
+        {
+          "id": 11,
+          "url": "/images/gallery/facility-3.jpg",
+          "title": "Gym Facility",
+          "description": "State-of-the-art gym for strength and conditioning training"
+        },
+        {
+          "id": 12,
+          "url": "/images/gallery/facility-4.jpg",
+          "title": "Changing Rooms",
+          "description": "Modern changing facilities for players and staff"
+        }
+      ]
+    },
+    {
+      "id": "events",
+      "name": "Events & Awards",
+      "description": "Special events, award ceremonies, and celebrations",
+      "images": [
+        {
+          "id": 13,
+          "url": "/images/gallery/event-1.jpg",
+          "title": "Awards Ceremony",
+          "description": "Annual awards ceremony recognizing player achievements"
+        },
+        {
+          "id": 14,
+          "url": "/images/gallery/event-2.jpg",
+          "title": "Team Building Day",
+          "description": "Players participating in team building activities"
+        },
+        {
+          "id": 15,
+          "url": "/images/gallery/event-3.jpg",
+          "title": "Guest Coach Session",
+          "description": "Professional guest coach conducting a special training session"
+        },
+        {
+          "id": 16,
+          "url": "/images/gallery/event-4.jpg",
+          "title": "End of Season Party",
+          "description": "Players and families celebrating the end of season achievements"
+        }
+      ]
+    }
+  ]
+}
