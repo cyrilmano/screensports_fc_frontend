@@ -1,16 +1,10 @@
-'use client';
-
-import { useState } from 'react';
-
-export default function GalleryCategories() {
-  const [activeCategory, setActiveCategory] = useState('all');
-
+export default function GalleryCategories({ activeCategory, onCategorySelect, counts }) {
   const categories = [
-    { id: 'all', name: 'All Photos', count: 24 },
-    { id: 'training', name: 'Training Sessions', count: 8 },
-    { id: 'matches', name: 'Match Action', count: 6 },
-    { id: 'facilities', name: 'Facilities', count: 5 },
-    { id: 'events', name: 'Events & Awards', count: 5 }
+    { id: 'all', name: 'All Photos', count: counts.all },
+    { id: 'training', name: 'Training Sessions', count: counts.training },
+    { id: 'matches', name: 'Match Action', count: counts.matches },
+    { id: 'facilities', name: 'Facilities', count: counts.facilities },
+    { id: 'events', name: 'Events & Awards', count: counts.events }
   ];
 
   return (
@@ -21,19 +15,17 @@ export default function GalleryCategories() {
             {categories.map((category) => (
               <button
                 key={category.id}
-                onClick={() => setActiveCategory(category.id)}
-                className={`px-6 py-3 rounded-full font-medium transition-colors ${
-                  activeCategory === category.id
-                    ? 'bg-blue-600 text-white'
-                    : 'bg-gray-100 text-gray-700 hover:bg-blue-50 hover:text-blue-600'
-                }`}
+                onClick={() => onCategorySelect(category.id)}
+                className={`px-6 py-3 rounded-full font-medium transition-colors ${activeCategory === category.id
+                  ? 'bg-primary text-white'
+                  : 'bg-gray-100 text-gray-700 hover:bg-red-50 hover:text-primary'
+                  }`}
               >
                 {category.name}
-                <span className={`ml-2 px-2 py-1 rounded-full text-xs ${
-                  activeCategory === category.id
-                    ? 'bg-blue-700 text-white'
-                    : 'bg-gray-200 text-gray-600'
-                }`}>
+                <span className={`ml-2 px-2 py-1 rounded-full text-xs ${activeCategory === category.id
+                  ? 'bg-red-700 text-white'
+                  : 'bg-gray-200 text-gray-600'
+                  }`}>
                   {category.count}
                 </span>
               </button>

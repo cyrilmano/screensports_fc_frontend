@@ -12,12 +12,12 @@ export default function CoachesSection() {
               Meet Our Expert Coaches
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Our coaching staff brings together decades of professional experience 
+              Our coaching staff brings together decades of professional experience
               and a passion for developing young talent.
             </p>
             <div className="w-24 h-1 bg-blue-600 mx-auto mt-4"></div>
           </div>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {coaches.map((coach, index) => (
               <div key={index} className="bg-white rounded-lg shadow-lg p-6 text-center hover:shadow-xl transition-shadow">
@@ -37,7 +37,7 @@ export default function CoachesSection() {
                 </p>
                 <div className="mt-4 pt-4 border-t border-gray-200">
                   <p className="text-xs text-gray-500">
-                    {coach.qualifications.join(', ')}
+                    {coach.certification}
                   </p>
                 </div>
               </div>

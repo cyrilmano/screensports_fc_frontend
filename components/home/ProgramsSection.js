@@ -54,27 +54,27 @@ export default function ProgramsSection() {
             Our Training Programs
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Choose from our comprehensive range of football training programs designed to develop 
+            Choose from our comprehensive range of football training programs designed to develop
             players of all ages and skill levels.
           </p>
         </div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {programs.map((program) => (
             <div key={program.id} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
               <div className="p-6">
                 <div className="flex items-center justify-between mb-4">
                   <div className="flex items-center space-x-3">
-                    <div className="flex h-12 w-12 items-center justify-center rounded-full bg-green-100 text-green-600">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-full bg-red-50 text-primary">
                       {program.icon}
                     </div>
                     <h3 className="text-xl font-semibold text-gray-900">{program.title}</h3>
                   </div>
-                  <span className="text-2xl font-bold text-green-600">{program.price}</span>
+                  <span className="text-2xl font-bold text-primary">{program.price}</span>
                 </div>
-                
+
                 <p className="text-gray-600 mb-4">{program.description}</p>
-                
+
                 <div className="space-y-2 mb-6">
                   <div className="flex justify-between text-sm">
                     <span className="text-gray-500">Age Group:</span>
@@ -85,13 +85,13 @@ export default function ProgramsSection() {
                     <span className="font-medium text-gray-900">{program.duration}</span>
                   </div>
                 </div>
-                
+
                 <div className="mb-6">
                   <h4 className="text-sm font-semibold text-gray-900 mb-2">Key Features:</h4>
                   <ul className="space-y-1">
                     {program.features.map((feature, index) => (
                       <li key={index} className="flex items-center text-sm text-gray-600">
-                        <svg className="h-4 w-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <svg className="h-4 w-4 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20">
                           <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                         </svg>
                         {feature}
@@ -99,10 +99,10 @@ export default function ProgramsSection() {
                     ))}
                   </ul>
                 </div>
-                
+
                 <Link
                   href={`/academy#program-${program.id}`}
-                  className="block w-full text-center bg-green-600 text-white py-3 px-4 rounded-md hover:bg-green-700 transition-colors duration-200 font-medium"
+                  className="block w-full text-center bg-primary text-white py-3 px-4 rounded-md hover:bg-red-700 transition-colors duration-200 font-medium"
                 >
                   Learn More
                 </Link>
@@ -110,11 +110,11 @@ export default function ProgramsSection() {
             </div>
           ))}
         </div>
-        
+
         <div className="text-center mt-12">
           <Link
             href="/academy"
-            className="inline-flex items-center px-8 py-3 text-lg font-semibold text-green-700 bg-white border-2 border-green-600 rounded-lg hover:bg-green-50 transition-colors duration-200"
+            className="inline-flex items-center px-8 py-3 text-lg font-semibold text-primary bg-white border-2 border-primary rounded-lg hover:bg-red-50 transition-colors duration-200"
           >
             View All Programs
             <svg className="ml-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

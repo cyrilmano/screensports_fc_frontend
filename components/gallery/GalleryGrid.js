@@ -2,16 +2,16 @@
 
 import { useState } from 'react';
 
-export default function GalleryGrid({ galleryData }) {
+export default function GalleryGrid({ galleryData, activeCategory }) {
   const [selectedImage, setSelectedImage] = useState(null);
 
   // Combine all gallery images into one array
-  const allImages = [
-    ...galleryData.training.map(img => ({ ...img, category: 'training' })),
-    ...galleryData.matches.map(img => ({ ...img, category: 'matches' })),
-    ...galleryData.facilities.map(img => ({ ...img, category: 'facilities' })),
-    ...galleryData.events.map(img => ({ ...img, category: 'events' }))
-  ];
+  const allImages = galleryData.categories.flatMap(category =>
+    category.images.map(img => ({
+      ...img,
+      category: category.id
+    }))
+  ).filter(img => activeCategory === 'all' || img.category === activeCategory);
 
   const handleImageClick = (image) => {
     setSelectedImage(image);
@@ -39,14 +39,14 @@ export default function GalleryGrid({ galleryData }) {
                       <p className="text-gray-600 text-sm">{image.title}</p>
                     </div>
                   </div>
-                  
+
                   <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
                     <div className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                       <div className="text-2xl mb-1">🔍</div>
                       <p className="text-sm">Click to view</p>
                     </div>
                   </div>
-                  
+
                   <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-4">
                     <h3 className="text-white font-semibold text-sm mb-1">
                       {image.title}
@@ -75,14 +75,14 @@ export default function GalleryGrid({ galleryData }) {
             >
               ✕
             </button>
-            
+
             <div className="aspect-video bg-gradient-to-br from-blue-100 to-green-100 flex items-center justify-center">
               <div className="text-center">
                 <div className="text-6xl mb-4">📸</div>
                 <p className="text-gray-600 font-medium">{selectedImage.title}</p>
               </div>
             </div>
-            
+
             <div className="p-6">
               <h2 className="text-2xl font-bold text-gray-900 mb-2">
                 {selectedImage.title}

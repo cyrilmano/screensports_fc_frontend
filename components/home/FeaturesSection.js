@@ -64,16 +64,16 @@ export default function FeaturesSection() {
             Why Choose Screensport FC?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We provide comprehensive football development with professional coaching, 
+            We provide comprehensive football development with professional coaching,
             modern facilities, and a proven track record of player success.
           </p>
         </div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => (
-            <div key={index} className="text-center p-6 rounded-lg bg-gray-50 hover:bg-green-50 transition-colors duration-200">
+            <div key={index} className="text-center p-6 rounded-lg bg-gray-50 hover:bg-red-50 transition-colors duration-200">
               <div className="flex justify-center mb-4">
-                <div className="flex h-16 w-16 items-center justify-center rounded-full bg-green-100 text-green-600">
+                <div className="flex h-16 w-16 items-center justify-center rounded-full bg-red-100 text-primary">
                   {feature.icon}
                 </div>
               </div>
