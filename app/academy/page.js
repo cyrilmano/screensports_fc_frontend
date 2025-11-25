@@ -22,9 +22,14 @@ export default function Academy() {
               <button className="bg-white text-primary px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
                 View Programs
               </button>
-              <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-primary transition-colors">
+              <a
+                href="https://wa.me/2347037558528"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-primary transition-colors inline-block"
+              >
                 Register Now
-              </button>
+              </a>
             </div>
           </div>
         </div>

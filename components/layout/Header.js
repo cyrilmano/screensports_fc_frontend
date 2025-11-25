@@ -63,12 +63,14 @@ export default function Header() {
           </div>
 
           <div className="ml-10 space-x-4 hidden lg:block">
-            <Link
-              href="/register"
+            <a
+              href="https://wa.me/2347037558528"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block rounded-md border border-transparent bg-primary px-4 py-2 text-base font-medium text-white hover:bg-red-700 transition-all duration-200 transform hover:scale-105"
             >
               Register Now
-            </Link>
+            </a>
           </div>
 
           <div className="ml-6 lg:hidden">
@@ -99,13 +101,15 @@ export default function Header() {
                 {link.name}
               </Link>
             ))}
-            <Link
-              href="/register"
-              className="block rounded-md px-3 py-2 text-base font-medium text-white bg-green-600 hover:bg-green-700 transition-all duration-200"
+            <a
+              href="https://wa.me/2347037558528"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block rounded-md px-3 py-2 text-base font-medium text-white bg-primary hover:bg-red-700 transition-all duration-200"
               onClick={() => setIsMenuOpen(false)}
             >
               Register Now
-            </Link>
+            </a>
           </div>
         </div>
       </nav>

@@ -33,15 +33,17 @@ export default function HeroSection() {
               </svg>
             </Link>
 
-            <Link
-              href="/register"
+            <a
+              href="https://wa.me/2347037558528"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center px-8 py-4 text-lg font-semibold text-primary bg-white rounded-lg hover:bg-gray-50 transition-all duration-200 transform hover:scale-105 shadow-lg hover-lift"
             >
               Register Now
               <svg className="ml-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
-            </Link>
+            </a>
           </div>
         </div>
       </div>
