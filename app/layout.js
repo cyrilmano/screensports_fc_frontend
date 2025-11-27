@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Screensport FC - Football Academy",
+  title: "Screensports FC - Football Academy",
   description: "Professional football academy developing the next generation of talent through expert coaching and state-of-the-art facilities.",
   keywords: "football academy, soccer training, youth development, elite training, goalkeeper academy, football coaching",
 };

@@ -11,7 +11,7 @@ export default function About() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              About Screensport FC
+              About Screensports FC
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 leading-relaxed mb-8">
               Developing the next generation of football talent through expert coaching,

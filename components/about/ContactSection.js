@@ -4,7 +4,7 @@ export default function ContactSection() {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-6">
-            Ready to Join Screensport FC?
+            Ready to Join Screensports FC?
           </h2>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
             Take the first step towards your football dreams. Contact us today

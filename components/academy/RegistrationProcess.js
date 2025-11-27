@@ -33,7 +33,7 @@ export default function RegistrationProcess() {
     {
       step: 6,
       title: 'Start Training',
-      description: 'Begin your journey with Screensport FC and start developing your football skills.',
+      description: 'Begin your journey with Screensports FC and start developing your football skills.',
       icon: '🚀'
     }
   ];
@@ -47,12 +47,12 @@ export default function RegistrationProcess() {
               Registration Process
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Joining Screensport FC is simple. Follow these steps to begin 
+              Joining Screensports FC is simple. Follow these steps to begin
               your football development journey with us.
             </p>
             <div className="w-24 h-1 bg-green-600 mx-auto mt-4"></div>
           </div>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {steps.map((step, index) => (
               <div key={index} className="relative">
@@ -73,15 +73,15 @@ export default function RegistrationProcess() {
               </div>
             ))}
           </div>
-          
+
           <div className="text-center mt-12">
             <div className="bg-gradient-to-r from-blue-50 to-green-50 rounded-xl p-8 max-w-2xl mx-auto">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
                 Ready to Get Started?
               </h3>
               <p className="text-gray-600 mb-6">
-                Contact us today to schedule your assessment trial and take the first step 
-                towards becoming part of the Screensport FC family.
+                Contact us today to schedule your assessment trial and take the first step
+                towards becoming part of the Screensports FC family.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <button className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">

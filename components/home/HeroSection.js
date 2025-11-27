@@ -18,7 +18,7 @@ export default function HeroSection() {
             Develop Your <span className="text-primary gradient-text">Football</span> Potential
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-gray-300 max-w-3xl mx-auto leading-relaxed animate-fadeInUp" style={{ animationDelay: '0.3s' }}>
-            Join Screensport FC Academy and train with professional coaches using
+            Join Screensports FC Academy and train with professional coaches using
             state-of-the-art facilities. From youth development to elite training programs,
             we help players of all ages reach their full potential.
           </p>

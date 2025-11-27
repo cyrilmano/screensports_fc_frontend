@@ -21,13 +21,13 @@ export default function Footer() {
               <div className="relative w-12 h-12 flex items-center justify-center">
                 <Image
                   src="/images/logo.avif"
-                  alt="Screensport FC Logo"
+                  alt="Screensports FC Logo"
                   width={48}
                   height={48}
                   className="object-contain"
                 />
               </div>
-              <h3 className="text-xl font-bold">Screensport FC</h3>
+              <h3 className="text-xl font-bold">Screensports FC</h3>
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
               Developing young football talents with world-class training facilities and experienced coaching staff.
@@ -112,7 +112,7 @@ export default function Footer() {
         {/* Copyright */}
         <div className="border-t border-gray-800 mt-12 pt-8 text-center animate-fadeInUp" style={{ animationDelay: '0.9s' }}>
           <p className="text-gray-400">
-            © 2024 Screensport FC Academy. All rights reserved. Built with passion for football excellence.
+            © 2024 Screensports FC Academy. All rights reserved. Built with passion for football excellence.
           </p>
         </div>
       </div>

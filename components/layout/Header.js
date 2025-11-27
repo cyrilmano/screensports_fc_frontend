@@ -36,14 +36,14 @@ export default function Header() {
               <div className="relative h-12 w-12 flex items-center justify-center">
                 <Image
                   src="/images/logo.avif"
-                  alt="Screensport FC Logo"
+                  alt="Screensports FC Logo"
                   width={48}
                   height={48}
                   className="object-contain"
                 />
               </div>
               <div>
-                <h1 className="text-2xl font-bold text-gray-900">Screensport FC</h1>
+                <h1 className="text-2xl font-bold text-gray-900">Screensports FC</h1>
                 <p className="text-sm text-primary font-medium">Football Academy</p>
               </div>
             </Link>

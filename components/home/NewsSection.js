@@ -21,7 +21,7 @@ export default function NewsSection() {
             Latest News & Updates
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Stay updated with the latest news, announcements, and achievements from Screensport FC Academy.
+            Stay updated with the latest news, announcements, and achievements from Screensports FC Academy.
           </p>
         </div>
 

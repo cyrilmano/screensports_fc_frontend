@@ -57,7 +57,7 @@ export default function News() {
               Latest News
             </h1>
             <p className="text-xl text-gray-300 leading-relaxed">
-              Stay updated with the latest news, events, and achievements from Screensport FC
+              Stay updated with the latest news, events, and achievements from Screensports FC
             </p>
           </div>
         </div>

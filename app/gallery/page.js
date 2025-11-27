@@ -34,7 +34,7 @@ export default function Gallery() {
             </h1>
             <p className="text-xl text-gray-300 leading-relaxed">
               Explore our collection of photos showcasing training sessions, matches,
-              facilities, and memorable moments from Screensport FC
+              facilities, and memorable moments from Screensports FC
             </p>
           </div>
         </div>
